@@ -1,3 +1,7 @@
+/* Colors That are used 
+Button color: #e67700
+Hover: #ffd8a8;
+*/
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +14,7 @@ body {
   justify-content: center;
   font-family: "Ubuntu", sans-serif;
 }
+
 .box {
   display: flex;
   flex-direction: column;
@@ -26,9 +31,16 @@ h1 {
   color: white;
   font-family: system-ui;
 }
-p {
+a {
   text-align: center;
   color: white;
+  margin: 12px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+a:hover {
+  color: #f1f3f5;
 }
 input {
   border-radius: 8px;
@@ -43,7 +55,9 @@ button {
   border: 0;
   background-color: rgba(228, 91, 0, 0.815);
   color: white;
+  font-size: 14px;
 }
 button:hover {
   background-color: rgba(255, 102, 0, 0.171);
+  font-size: 14px;
 }
